@@ -6,7 +6,7 @@ private:
     float radious;
     float PI = 3.14;
 public:
-    circle(int n):radious(n){}
+    circle(float n):radious(n){}
     void circumference ();
     void area();
 };
